@@ -4,13 +4,6 @@ body {
   font-family: monospace;
 }
 
-.testing {
-	-webkit-transform: rotate(15deg);
-	transform: rotate(15deg);
-	font-size: 20px;
-	color: red;
-}
-
 .special {
 	display: inline-block;
 	-webkit-animation-name: spin;
@@ -54,8 +47,28 @@ body {
     transform:rotate(360deg);
   }
 }
+#headish {
+  display: inline;
+}
 
+#content {
+  display: inline;
+  color: #d78700;
+}
 
+#trololo {
+  color: #af0000;
+  display: none;
+}
+
+bandcamp {
+  display: none;
+}
+
+.select {
+  display: inline;
+  color: #005fff;
+}
 .blinking-cursor {
   font-weight: 100;
   color: #00ff00;
